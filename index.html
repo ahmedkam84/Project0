@@ -8,14 +8,6 @@
             body html {
               height: 100%;
             }
-            .hero-image {
-              background-image: url('vital_banner.png');
-              height: 50%;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              position: relative;
-            }
 
             .hero-text {
               text-align: center;
@@ -41,10 +33,39 @@
               background-color: #555;
               color: white;
             }
+            #msg {
+              width: 500px;
+              height:300px;
+              background-color: springgreen;
+              margin-left: 30px;
+
+              }
+              #greeting{
+                text-decoration: underline;
+              }
+
+
+            #greet-msg{
+              text-align: justify;
+            }
+
+            #events{
+              float: right;
+            }
+            .container{
+              display:flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+
+
+            }
+
+
           </style>
 
   </head>
   <body>
+    <div>
 
    <ul class="nav nav-pills justify-content-center">
   <li class="nav-item">
@@ -60,17 +81,85 @@
     <a class="nav-link" href="#">Others</a>
   </li>
 </ul>
-
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">I am John Doe</h1>
-    <p>And I'm a Photographer</p>
-    <button>Hire me</button>
-  </div>
 </div>
 
-<p>Page Content..</p>
+  <div style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('hero-image.jpg'); height:400px; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover; position:relative; top:20px;">
+    <div class="hero-text">
+    <h1 style="font-size:50px">I am Ahmed</h1>
+      <p>And I'm a Computer Addicted</p>
+      <button>Click Here</button>
+    </div>
+  </div>
+  <hr>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm bg-success">
+        <h3>  Welocme Message </h3>
+        <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        </div>
+        <div class="col-sm bg-warning">
+          <table>
+            <tr>
+              <th> Event </th>
+              <th> Activity </th>
+              <th> Date </th>
+              <th> Time </th>
+            </tr>
+            <tr>
+              <td> Geology Lecture </td>
+              <td> Group Discussion</td>
+              <td> 20-feb-2020 </td>
+              <td> 12:00 am </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<!--<div class="container">
+  <div class="mid">
+    <div id="msg">
+      <h3 id="greeting"> Welocme Message</h3>
+      <br>
+        <p id="greet-msg">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+        </p>
+
+    </div>
+  <div>
+    <table id="events">
+      <tr class="row1">
+        <th> Event </th>
+        <th> Activity </th>
+        <th> Date </th>
+        <th> Time </th>
+      </tr>
+      <tr class="row1">
+        <td> Geology Lecture </td>
+        <td> Group Discussion</td>
+        <td> 20-feb-2020 </td>
+        <td> 12:00 am </td>
+      </tr>
+    </table>-->
+
+
+
+
+
+
+
+
+
 
 
 
   </body>
+</html>
