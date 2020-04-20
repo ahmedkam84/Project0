@@ -52,13 +52,33 @@
             #events{
               float: right;
             }
-            .container{
-              display:flex;
-              flex-direction: row;
-              flex-wrap: wrap;
-
+            #wel-msg{
+            text-align: justify;
+            }
+            .grid{
+              background-color: #dae7e8;
+              display: grid;
+              padding: 20px;
+              grid-column-gap: 20px;
+              grid-row-gap: 10px;
+              grid-template-columns: auto auto auto;
+            }
+            .grid-item{
+              background-color:white;
+              font-size: 20px;
+              padding: 20px;
+              text-align: center;
+            }
+            #bottom{
+              background-color:black;
+              padding: 10px;
+            }
+            #s-links{
+              color: white;
+              text-decoration: none;
 
             }
+
 
 
           </style>
@@ -92,32 +112,52 @@
   </div>
   <hr>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm bg-success">
+  <div class="container">
+    <div class="row">
+      <div class="col">
         <h3>  Welocme Message </h3>
-        <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+        <p id="wel-msg">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
-Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-        </div>
-        <div class="col-sm bg-warning">
-          <table>
-            <tr>
-              <th> Event </th>
-              <th> Activity </th>
-              <th> Date </th>
-              <th> Time </th>
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+        </p>
+      </div>
+      <div class="col">
+      </div>
+      <div class="col">
+        <table>
+          <tr>
+            <th> Event </th>
+            <th> Activity </th>
+            <th> Date </th>
+            <th> Time </th>
+          </tr>
+          <tr>
+            <td> Geology Lecture </td>
+            <td> Group Discussion</td>
+            <td> 20-feb-2020 </td>
+            <td> 12:00 am </td>
             </tr>
-            <tr>
-              <td> Geology Lecture </td>
-              <td> Group Discussion</td>
-              <td> 20-feb-2020 </td>
-              <td> 12:00 am </td>
-            </tr>
-          </table>
+        </table>
         </div>
       </div>
     </div>
+    <br>
+      <h1> Latest News </h1>
+    <div class="grid">
+      <div class="grid-item">first article</div>
+      <div class="grid-item">second article</div>
+      <div class="grid-item">third article</div>
+    </div>
+    <footer id="bottom">
+      <h3 id="s-links">Social links</h3>
+        <p><a href="#"> Facebook</a></p>
+        <p><a href="#"> Twitter</p>
+        <p><a href="#">Instagram</p>
+        
+      </footer>
+
+
+
 
 
 
@@ -161,5 +201,5 @@ Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quick
 
 
 
-  </body>
+ </body>
 </html>
