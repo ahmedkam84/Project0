@@ -1,0 +1,148 @@
+html body {
+  font-family: Arial, sans-serif, Helvetica;
+  margin: 0px;
+  background-color: #deccc8; }
+
+@media (max-width: 700px) {
+  .pill-nav a, .pill-nav input[type=text] {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /*14px*/ } }
+.menu {
+  background-color: #242322;
+  border: 1px solid black; }
+
+#logo {
+  height: 60px;
+  width: 150px; }
+
+.pill-nav {
+  /*#e4e8f0*/
+  text-align: center;
+  overflow: hidden; }
+
+.pill-nav a {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-left: 30px; }
+
+.pill-nav a:hover {
+  background-color: white;
+  color: green;
+  text-decoration: none; }
+
+.pill-nav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px; }
+
+.pill-nav img {
+  float: left; }
+
+.row1 {
+  display: flex;
+  border: 1px solid black; }
+
+.contents {
+  flex: 80%;
+  background-color: white;
+  padding: 20px; }
+
+.side-image {
+  margin-top: 40px;
+  height: 100px;
+  background-color: none; }
+
+/* .col-md-10{
+   background-color: #046630;
+ }
+ .col-md-2{
+   text-align: center;
+ }*/
+.col-md-9 {
+  padding-top: 20px; }
+
+.col-md-3 {
+  padding-top: 20px;
+  border: 1px solid red; }
+
+#main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px; }
+
+/*left column */
+.column-left {
+  width: 60%;
+  background-color: red; }
+
+#about-content {
+  text-align: left;
+  color: black; }
+
+.column-right {
+  width: 40%; }
+
+/*side images */
+.side-image {
+  width: 300px;
+  height: 200px;
+  display: block;
+  float: right;
+  margin-bottom: 10px; }
+
+.main-content {
+  margin-top: 10px; }
+
+/*Table Period --- scss nesting Example*/
+div.comparisontable table {
+  border-collapse: collapse;
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+div.comparisontable th {
+  border: 1px solid white;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: black; }
+div.comparisontable td {
+  border: 1px solid white;
+  font-size: 20px;
+  color: green;
+  text-align: center; }
+
+/*footer is here*/
+.footers {
+  background-color: black;
+  margin-right: 20px; }
+
+.footers p {
+  color: white;
+  float: left;
+  margin-top: 60px; }
+
+#year {
+  font-size: 20px;
+  color: red; }
+
+/*sidenav*/
+
+/*# sourceMappingURL=home_stylesheet.css.map */

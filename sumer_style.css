@@ -1,0 +1,87 @@
+html body {
+  /*background-color: #e1f5f3;*/
+  font-family: Arial, sans-serif, Helvetica;
+  margin: 0px;
+  background-color: #deccc8; }
+
+.fstrow {
+  background-color: white;
+  padding: 6px 30px;
+  height: 80px; }
+
+.subject h1 {
+  text-align: center; }
+
+li p {
+  font-size: 20px;
+  margin: 12px 5px 0 5px; }
+
+div.menucontainer {
+  width: 100%;
+  overflow: hidden; }
+
+.menu {
+  background-color: #2d302e;
+  text-align: center;
+  width: 150px;
+  margin-top: 0px;
+  height: 1200px;
+  float: left;
+  margin-right: 10px; }
+
+div.menu a {
+  font-size: 22px;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  display: block;
+  margin-top: 20px; }
+
+div.menu a:hover {
+  background-color: black; }
+
+.bodycontent {
+  padding-left: 20px; }
+
+.bodycontent p {
+  font-size: 20px;
+  color: green;
+  margin-left: 20px;
+  text-align: justify; }
+
+/*.image {
+  display: block;
+  padding-right: 20px;
+  float: right;
+  display:block;
+  margin-left: 20px;
+  margin-top: 20px;
+}*/
+.image, #side, #side2 {
+  height: 300px;
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+#side {
+  margin-top: 20px; }
+
+/* table{
+  font-family: sans-serif, arial, Helvetica;
+  border: 1px solid black;
+}
+
+table  th  td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th{
+  background-color: green;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  color: white;
+}*/
+
+/*# sourceMappingURL=sumer_style.css.map */
