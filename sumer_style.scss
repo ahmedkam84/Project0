@@ -1,53 +1,62 @@
-html body {
-  /*background-color: #e1f5f3;*/
+
+ html body{
+/*background-color: #e1f5f3;*/
   font-family: Arial, sans-serif, Helvetica;
   margin: 0px;
-  background-color: #deccc8; }
-
-.fstrow {
+  background-color: #deccc8;
+}
+.fstrow{
   background-color: white;
   padding: 6px 30px;
-  height: 80px; }
+  height: 80px;
+}
 
 .subject h1 {
-  text-align: center; }
+  text-align: center;
+}
+
 
 li p {
   font-size: 20px;
-  margin: 12px 5px 0 5px; }
-
-div.menucontainer {
+  margin: 12px 5px 0 5px;
+}
+div.menucontainer{
   width: 100%;
-  overflow: hidden; }
-
-.menu {
-  background-color: #2d302e;
+  overflow: hidden;
+}
+.menu{
+  background-color:#2d302e;
   text-align: center;
   width: 150px;
   margin-top: 0px;
-  height: 1200px;
+  height:1200px;
   float: left;
-  margin-right: 10px; }
-
-div.menu a {
+  margin-right:10px;
+}
+div.menu a{
   font-size: 22px;
   text-decoration: none;
-  padding: 5px 10px;
+  padding:5px 10px;
   color: white;
   display: block;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
+div.menu a:hover{
+  background-color: black;
+  }
 
-div.menu a:hover {
-  background-color: black; }
+.bodycontent{
+  padding-left: 20px;
 
-.bodycontent {
-  padding-left: 20px; }
+}
 
-.bodycontent p {
+.bodycontent p{
   font-size: 20px;
   color: green;
   margin-left: 20px;
-  text-align: justify; }
+  text-align: justify;
+
+}
 
 /*.image {
   display: block;
@@ -57,15 +66,22 @@ div.menu a:hover {
   margin-left: 20px;
   margin-top: 20px;
 }*/
-.image, #side, #side2 {
+.image {
   height: 300px;
   width: 400px;
   float: right;
   margin-left: 20px;
-  margin-right: 20px; }
+  margin-right: 20px;
+}
+  #side{
+  @extend .image;
+  margin-top: 20px;
+}
+#side2{
+  @extend .image;
 
-#side {
-  margin-top: 20px; }
+}
+
 
 /* table{
   font-family: sans-serif, arial, Helvetica;
@@ -83,5 +99,3 @@ th{
   padding-bottom: 12px;
   color: white;
 }*/
-
-/*# sourceMappingURL=sumer_style.css.map */
